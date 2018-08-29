@@ -11,12 +11,16 @@ from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
     login="harshxiphone",
-    password="2ilovevs234225",
+    password="qqqqqq",
     like_per_day=1000,
     comments_per_day=0,
     tag_list=['follow4follow', 'f4f', 'travel', 'iphone', 'iphonex', 'iphoneography', 
     'camera', 'visuals', 'shotoniphone', 'iphonephotography', 'vscocam', 'instaphoto', 'photoftheday', 'visuals',
-     'aesthetics', 'like4like', 'l4l', 'cityscape', 'europe', 'wanderlust', 'traveller'],
+     'aesthetics', 'like4like', 'l4l', 'cityscape', 'europe', 'wanderlust', 'traveller','iphone', 'iphonex', 'instaiphone', 'instaphoto', 'instaphotography', 'photooftheday', 
+    'JustGoShoot', 'InstaGoodMyPhoto', 'InstaPhoto', 'PicOfTheDay', 'PhotoOfTheDay', 'Photography', 
+    'iPhoneography', 'PictureOfTheDay', 'Camera', 'Photoshop', 'Instadaily', 'Igers', 'Cityscape', 'HDR', 
+    'Instafocus', 'Igworldclub', 'Visuals', 'Aesthetics', 'TravellingThroughTheWorld', 'Wanderlust', 
+    'shotoniphone'],
     tag_blacklist=['nsfw'],
     user_blacklist={},
     max_like_for_one_tag=50,
@@ -51,7 +55,7 @@ bot = InstaBot(
         'beauty', 'express', 'kredit', 'collection', 'impor', 'preloved',
         'follow', 'follower', 'gain', '.id', '_id', 'bags'
     ],
-    unfollow_whitelist=['example_user_1', 'example_user_2'])
+    unfollow_whitelist=[])
 while True:
 
     #print("# MODE 0 = ORIGINAL MODE BY LEVPASHA")
